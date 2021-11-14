@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Donate Food-WeCare</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="DonateFood.js"></script>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h1 class="header">Donate Food</h1>
+            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-11 Donate_div">
+                <br>
+                <h3>Enter the food and the quantity of food you want to donate</h3>
+                <input tpye="text" id="FoodToDonate" placeholder="" class="form-control">
+                <br>
+                <h3>Enter your adress</h3>
+                <input tpye="text" id="Address" placeholder="address" class="form-control">
+                <h3>Enter your Phone number</h3>
+                <input tpye="text" id="PhoneNumber" placeholder="enter your phone number" class="form-control">
+            </div>
+            <br>
+            <button class="btn btn-primary DonateButton" onclick="DonateTheFood()">Donate</button>
+            <br>
+            <br>
+            <br>
+            <div id="confirmationFood"></div>
+        </div>
+    </center>
+</body>

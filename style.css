@@ -1,0 +1,59 @@
+body
+{
+    background-image: linear-gradient(to bottom, #7c33f1, #6425d9, #6e18b4, #3c0c94, #030303);
+    color:white;
+}
+.header
+{
+	color:white;font-family: 'Oswald';font-size: 45px;letter-spacing: 5px;margin-top: 40px;  
+}
+.login_div
+{
+	background: rgb(147, 76, 214);
+    float: none;
+    border-radius: 15px;
+    width:750px;
+}
+.ChoosingButton
+{ 
+   margin-top:50px;
+   height:50px;
+   width:200px;
+   color:black;
+   font-size:20px;
+}
+.Donate_div
+{
+    background: rgb(147, 76, 214);
+    float: none;
+    border-radius: 15px;
+    width:750px;
+    height:350px;  
+}
+.DonateButton
+{
+    width:100px;
+    height:50px;
+    font-size:20px;
+}
+#header1
+{
+    font-size:50px;
+}
+.ButtonYes
+{
+    height:50px;
+    width:75px;
+    font-size:20px;
+}
+.ItemsImg
+{
+    height:50px;
+    width:50px;
+    margin-top:50px;
+}
+#header2
+{
+    font-style: italic;
+    color:yellow;
+}
