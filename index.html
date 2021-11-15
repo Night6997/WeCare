@@ -9,31 +9,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="login.js"></script>
+<script src="intro.js"></script>
 </head>
 <body>
-    <div class="container">    
-        <center>
-        <h1 class="header">Welcome to WeCare</h1>
-        <img src="wecare.png" class="WeCareImg">
-        <h2 id="header2">Help the needy to build their future</h2>
-        <br>
-        <h3>Here you can choose to donate multiple things of your wish!</h3>
+    <center>
+        <div class="container">
+        <h1>WeCare</h1>
+        <img src="wecare.png">
         <br>
         <br>
-        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-11 login_div">
-            <br>
-                <h3 >Donate items to help out people!</h3>
-                <h4 >Join WeCare today</h4>
-                <div class="form-group">
-                  <label >User Name:</label>
-                  <input tpye="text" id="userName" placeholder="enter your Lifeline username" class="form-control">
-        
-                </div>
-                <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
-                <br><br>
-            </div>
+        <p id="WeCareDesc">We Care is a Digital Platform for helping the needy. 
+            Your Donations will reach the real needy people identified by extensive research by our team. Even the smallest contribution is of great value for poor people. 
+            Many of us end up with extra food during every festivals and most of the same the same get wasted. 
+            Here is an opportunity to donate the same to needy through this platform and the food will be collected by our team immediately and distributed to real need by following all 
+            hygiene protocol. Similarly you can also donate other items mentioned in the application here to help the needy people. As the say going " every drop counts ". 
+            Welcome to the world of bringing smiles on the faces of the underprivileged.
+        </p>
+        <br><br><br><br>
+        <button class="btn btn-success ButtonYes" onclick="DonateNow()">Donate</button>
+    </div>
     </center>
-     </div>
-</body>
-</html>

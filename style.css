@@ -43,7 +43,7 @@ body
 .ButtonYes
 {
     height:50px;
-    width:75px;
+    width:90px;
     font-size:20px;
 }
 .ItemsImg
@@ -56,4 +56,10 @@ body
 {
     font-style: italic;
     color:yellow;
+}
+#WeCareDesc
+{
+        padding: 50px;
+        text-align: center;
+        font-size:20px;
 }
